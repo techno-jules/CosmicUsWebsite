@@ -1,0 +1,109 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+*{
+  /*background-image: url('webbackground.png');*/
+  /*font-family: 'Trebuchet MS', sans-serif;*/
+  /*font-family: 'Sigmar', cursive;*/
+  
+  
+  
+  
+
+}
+* {box-sizing: border-box}
+.mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;}
+.header {
+  background-image: url('webbackground.png');
+}
+.hero-section {
+  background-color: #DFE7FD;
+}
+body {
+  
+  background-color: #DFE7FD;
+}
+h1 {
+  /*font-family: 'Sigmar', cursive;*/
+  font-family: 'Gravitas One', cursive;
+  
+  text-shadow: 2px 2px 3px #E5BEEC, 1px 3px 25px #917FB3, 2px 1px 5px #2A2F4F;
+}
+h2 {
+  /*font-family: 'Sigmar', cursive;*/
+  /*color: #E5BEEC;*/
+  color: #6c5ce7;
+
+  /*font-family: 'Gravitas One', cursive;*/
+  font-family: 'Oswald', sans-serif;
+  text-shadow: -1px 2px white, 0 1px #E5BEEC, 1px 0 #FFFBFB, 0 -2px black;
+  
+}
+p{
+  /*font-family: 'Karla', sans-serif;*/
+  font-family: 'Old Standard TT', serif;
+  font-size: 18px;
+  font-weight: 800;
+}
+h3 {
+  color: purple;
+  font-size: 28px;
+  text-shadow: -1px 5px #E5BEEC, 0 1px white, 1px 0 #2A2F4F, 0 -1px black;
+  font-family: 'Dancing Script', cursive;
+}
+
+
+.grid-item p {
+  font-size:17px;
+}
+h4 {
+  color: purple;
+  font-size: 30px;
+  text-shadow: -1px 5px #E5BEEC, 0 1px white, 1px 0 #2A2F4F, 0 -1px black;
+  
+}
+
+h5 {
+  
+  font-size: 30px;
+  font-weight: 900;
+  margin: auto;
+  color: #917FB3;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+.modal-footer button {
+  background-color: #6c5ce7;
+  color: white;
+}
+table {
+  margin-left: 9px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 5px solid purple;
+  background-color: #E5BEEC;
+  
+  
+}
+
+th, td {
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+  color: #6c5ce7;
+}
+
+tr:nth-child(even){background-color: #917FB3}
+
+@media screen and (max-width: 600px) {
+  .hero-section img {
+    width: 100%;
+  }
+  table {
+    max-width: 10px;
+  }
+}
